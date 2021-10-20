@@ -12,7 +12,7 @@ public class Main {
 
         for (Bolygo bolygo: Bolygo.values()
              ) {
-            System.out.printf("%s (%f): %f\n", bolygo, bolygo.getGravitacio(), bolygo.getSuly(sajatTomeg));
+            System.out.printf("%s (%f): %f \n", bolygo, bolygo.getGravitacio(), bolygo.getSuly(sajatTomeg));
         }
     }
 }
